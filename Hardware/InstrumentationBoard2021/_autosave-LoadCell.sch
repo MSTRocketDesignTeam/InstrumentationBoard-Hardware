@@ -1,0 +1,287 @@
+EESchema Schematic File Version 4
+LIBS:InstrumentationBoard2021-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L InstrumentationBoard:HX711 U?
+U 1 1 5FA02EFA
+P 5575 3700
+F 0 "U?" H 5575 4365 50  0000 C CNN
+F 1 "HX711" H 5575 4274 50  0000 C CNN
+F 2 "" H 5575 3700 50  0001 C CNN
+F 3 "" H 5575 3700 50  0001 C CNN
+	1    5575 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2950 4950 3300
+Wire Wire Line
+	4950 3300 5125 3300
+Wire Wire Line
+	6025 3300 6275 3300
+Wire Wire Line
+	6025 3400 6275 3400
+Wire Wire Line
+	6275 3400 6275 3300
+$Comp
+L power:GND #PWR?
+U 1 1 5FA05AFA
+P 6275 4125
+F 0 "#PWR?" H 6275 3875 50  0001 C CNN
+F 1 "GND" H 6280 3952 50  0000 C CNN
+F 2 "" H 6275 4125 50  0001 C CNN
+F 3 "" H 6275 4125 50  0001 C CNN
+	1    6275 4125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 4000 6275 4000
+Wire Wire Line
+	6275 4000 6275 4125
+Wire Wire Line
+	6025 3900 6275 3900
+Wire Wire Line
+	6275 3900 6275 4000
+Connection ~ 6275 4000
+Text HLabel 1975 3275 0    59   Output ~ 0
+E+
+$Comp
+L Transistor_BJT:MMBTA92 Q?
+U 1 1 5FA0B6F9
+P 4500 3400
+F 0 "Q?" H 4691 3354 50  0000 L CNN
+F 1 "MMBT4403" H 4691 3445 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4700 3325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/MMBTA92LT1-D.PDF" H 4500 3400 50  0001 L CNN
+	1    4500 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA073B5
+P 4025 2950
+F 0 "C?" V 3773 2950 50  0000 C CNN
+F 1 "C" V 3864 2950 50  0000 C CNN
+F 2 "" H 4063 2800 50  0001 C CNN
+F 3 "~" H 4025 2950 50  0001 C CNN
+	1    4025 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 3400 5125 3400
+Wire Wire Line
+	4400 2950 4400 3200
+Connection ~ 4950 2950
+Wire Wire Line
+	4175 2950 4400 2950
+Connection ~ 4400 2950
+Wire Wire Line
+	5125 3500 4625 3500
+Wire Wire Line
+	4625 3500 4625 3725
+Wire Wire Line
+	4625 3725 4400 3725
+Wire Wire Line
+	4400 3600 4400 3725
+Connection ~ 4400 3725
+Wire Wire Line
+	4400 3725 3800 3725
+$Comp
+L Device:L L?
+U 1 1 5FA0F3E3
+P 3100 3275
+F 0 "L?" V 3290 3275 50  0000 C CNN
+F 1 "L" V 3199 3275 50  0000 C CNN
+F 2 "" H 3100 3275 50  0001 C CNN
+F 3 "~" H 3100 3275 50  0001 C CNN
+	1    3100 3275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA102E1
+P 2675 3525
+F 0 "C?" H 2850 3550 50  0000 C CNN
+F 1 "C" H 2825 3450 50  0000 C CNN
+F 2 "" H 2713 3375 50  0001 C CNN
+F 3 "~" H 2675 3525 50  0001 C CNN
+	1    2675 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA1082C
+P 3425 3725
+F 0 "R?" H 3495 3771 50  0000 L CNN
+F 1 "R" H 3495 3680 50  0000 L CNN
+F 2 "" V 3355 3725 50  0001 C CNN
+F 3 "~" H 3425 3725 50  0001 C CNN
+	1    3425 3725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3725 3800 3275
+Wire Wire Line
+	3800 3275 3425 3275
+Wire Wire Line
+	3425 3575 3425 3275
+Connection ~ 3425 3275
+Wire Wire Line
+	3425 3275 3250 3275
+$Comp
+L Device:R R?
+U 1 1 5FA13404
+P 3425 4175
+F 0 "R?" H 3495 4221 50  0000 L CNN
+F 1 "R" H 3495 4130 50  0000 L CNN
+F 2 "" V 3355 4175 50  0001 C CNN
+F 3 "~" H 3425 4175 50  0001 C CNN
+	1    3425 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 3950 4700 3950
+Wire Wire Line
+	4700 3950 4700 3600
+Wire Wire Line
+	4700 3600 5125 3600
+Wire Wire Line
+	3425 3875 3425 3950
+Connection ~ 3425 3950
+Wire Wire Line
+	3425 3950 3425 4025
+$Comp
+L Device:C C?
+U 1 1 5FA15244
+P 4125 4275
+F 0 "C?" V 4375 4275 50  0000 C CNN
+F 1 "C" V 4275 4275 50  0000 C CNN
+F 2 "" H 4163 4125 50  0001 C CNN
+F 3 "~" H 4125 4275 50  0001 C CNN
+	1    4125 4275
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FA16A52
+P 3425 4575
+F 0 "#PWR?" H 3425 4325 50  0001 C CNN
+F 1 "GND" H 3430 4402 50  0000 C CNN
+F 2 "" H 3425 4575 50  0001 C CNN
+F 3 "" H 3425 4575 50  0001 C CNN
+	1    3425 4575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 4575 3425 4425
+Wire Wire Line
+	3425 4425 3800 4425
+Wire Wire Line
+	3800 4425 3800 4275
+Wire Wire Line
+	3800 4275 3975 4275
+Connection ~ 3425 4425
+Wire Wire Line
+	3425 4425 3425 4325
+Wire Wire Line
+	5125 3700 4800 3700
+Wire Wire Line
+	4800 3700 4800 4050
+Wire Wire Line
+	4800 4050 3800 4050
+Wire Wire Line
+	3800 4050 3800 4275
+Connection ~ 3800 4275
+Wire Wire Line
+	4275 4275 4900 4275
+Wire Wire Line
+	4900 4275 4900 3800
+Wire Wire Line
+	4900 3800 5125 3800
+Wire Wire Line
+	5125 3900 5000 3900
+Wire Wire Line
+	5000 3900 5000 4400
+Wire Wire Line
+	5100 4000 5125 4000
+Wire Wire Line
+	5100 4000 5100 4550
+$Comp
+L Device:C C?
+U 1 1 5FA1EA7C
+P 2275 3525
+F 0 "C?" H 2450 3550 50  0000 C CNN
+F 1 "C" H 2425 3450 50  0000 C CNN
+F 2 "" H 2313 3375 50  0001 C CNN
+F 3 "~" H 2275 3525 50  0001 C CNN
+	1    2275 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1975 3275 2275 3275
+Wire Wire Line
+	2675 3375 2675 3275
+Connection ~ 2675 3275
+Wire Wire Line
+	2675 3275 2950 3275
+Wire Wire Line
+	2275 3375 2275 3275
+Connection ~ 2275 3275
+Wire Wire Line
+	2275 3275 2675 3275
+$Comp
+L power:GND #PWR?
+U 1 1 5FA239C5
+P 2675 3875
+F 0 "#PWR?" H 2675 3625 50  0001 C CNN
+F 1 "GND" H 2680 3702 50  0000 C CNN
+F 2 "" H 2675 3875 50  0001 C CNN
+F 3 "" H 2675 3875 50  0001 C CNN
+	1    2675 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FA25C9D
+P 2275 3875
+F 0 "#PWR?" H 2275 3625 50  0001 C CNN
+F 1 "GND" H 2280 3702 50  0000 C CNN
+F 2 "" H 2275 3875 50  0001 C CNN
+F 3 "" H 2275 3875 50  0001 C CNN
+	1    2275 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2275 3875 2275 3675
+Wire Wire Line
+	2675 3875 2675 3675
+Wire Wire Line
+	4950 2950 4400 2950
+$Comp
+L power:+5V #PWR?
+U 1 1 5FA296D9
+P 5175 2850
+F 0 "#PWR?" H 5175 2700 50  0001 C CNN
+F 1 "+5V" H 5190 3023 50  0000 C CNN
+F 2 "" H 5175 2850 50  0001 C CNN
+F 3 "" H 5175 2850 50  0001 C CNN
+	1    5175 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5175 2850 5175 2950
+Wire Wire Line
+	5175 2950 4950 2950
+$EndSCHEMATC

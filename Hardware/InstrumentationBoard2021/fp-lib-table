@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name MAX31856MUD_)(type KiCad)(uri C:/Users/Dan/Documents/GitHub/InstrumentationBoard-Hardware/Documentation/Libraries/MAX31856MUD_)(options "")(descr ""))
+  (lib (name SEN-13879)(type KiCad)(uri C:/Users/Dan/Documents/GitHub/InstrumentationBoard-Hardware/Documentation/Libraries/SEN-13879)(options "")(descr ""))
+  (lib (name TMUX1104DGSR-pcb-part-libraries)(type KiCad)(uri C:/Users/Dan/Documents/GitHub/InstrumentationBoard-Hardware/Documentation/Libraries/TMUX1104DGSR-pcb-part-libraries)(options "")(descr ""))
+  (lib (name InstrumentationBoard2021)(type KiCad)(uri C:/Users/Dan/Documents/GitHub/InstrumentationBoard-Hardware/Documentation/Libraries/InstrumentationBoard2021.pretty)(options "")(descr ""))
+  (lib (name ESP32-DEVKITC-32D)(type KiCad)(uri C:/Users/Dan/Documents/GitHub/InstrumentationBoard-Hardware/Documentation/Libraries/ESP32-DEVKITC-32D)(options "")(descr ""))
+)
