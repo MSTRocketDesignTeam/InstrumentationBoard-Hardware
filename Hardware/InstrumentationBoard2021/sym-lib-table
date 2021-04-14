@@ -3,4 +3,5 @@
   (lib (name SEN-13879)(type Legacy)(uri C:/Users/Dan/Documents/GitHub/InstrumentationBoard-Hardware/Documentation/Libraries/SEN-13879/SEN-13879.lib)(options "")(descr ""))
   (lib (name MAX31856MUD_)(type Legacy)(uri C:/Users/Dan/Documents/GitHub/InstrumentationBoard-Hardware/Documentation/Libraries/MAX31856MUD_/MAX31856MUD_.lib)(options "")(descr ""))
   (lib (name ESP32-DEVKITC-32D)(type Legacy)(uri C:/Users/Dan/Documents/GitHub/InstrumentationBoard-Hardware/Documentation/Libraries/ESP32-DEVKITC-32D/ESP32-DEVKITC-32D.lib)(options "")(descr ""))
+  (lib (name InstrumentationBoard2021-rescue)(type Legacy)(uri ${KIPRJMOD}/InstrumentationBoard2021-rescue.lib)(options "")(descr ""))
 )
